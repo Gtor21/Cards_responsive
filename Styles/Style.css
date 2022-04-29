@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #F5F5FA;
+  }
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 84px;
+    display:contents;
+    
+}
+.title-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 24px;
+    color: #848199;
+
+}
+.cont-title{
+    margin-top: 20px;
+    margin-left: 125px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+ul{list-style-image: url("../Images/check-mark.png");}
+.ul{list-style-image: url("../Images/check.png");}
+
+.row{
+    background-color: white;
+    height: 400px;
+    width: 230px;
+    border-radius: 20px;
+    margin-top: 60px;
+    font-family: 'Poppins';
+}
+
+.card-02{
+    box-shadow: 0px 51px 15px 0px rgba(0,0,0,0.1);
+    background-color: #FF8E3B;
+    border-radius: 26px;
+    height: 380px;
+    margin-top: -50px;
+    padding: 9px;
+}
+.card-01, .card-03, .card-04{padding: 15px;}
+#valor, #mes{display:inline;}
+#valor1, #mes1{display:inline;}
+.l2, .l3, .l4, .i3, .i4 {opacity: 0.2;}
+#mes {color: #848199;}
+#desc, #list{
+    color: #848199;
+    margin-left: 20px;
+    font-size: 14px;
+}
+#pack{
+    margin: 0;
+    margin:0;
+}
+#mes1 {color:black;}
+#desc1, #list1{
+    color:black;
+    margin-left: 20px;
+    font-size: 14px;
+}
+#valor, #pack{
+    font: bold;
+    color: #373737;
+    margin-left: 20px;
+}
+label{
+    border-radius: 20px;
+    background-color: #FFD5B6;
+    font-family: "poppis";
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 60%;
+}
+.btnwhite{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF4EB;
+    border: none;
+    color: #FF8E3C;
+    padding: 10px;
+    width: 170px;
+}
+.btnblack{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #373737;
+    border: none;
+    color:white;
+    padding: 10px;
+    width: 170px;
+}
+
